@@ -1,8 +1,8 @@
-# Privacy Policy — FB Ad Killer
+# Privacy Policy — Adnihilator
 
 Effective 2026-09-24.
 
-FB Ad Killer hides ads in the Facebook feed. It has no server of its own, no analytics, no account and no advertising. This policy covers everything the extension reads, stores and sends.
+Adnihilator hides ads in the Facebook feed. It has no server of its own, no analytics, no account and no advertising. This policy covers everything the extension reads, stores and sends.
 
 ## What it reads
 
