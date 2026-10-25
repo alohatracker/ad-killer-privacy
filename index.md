@@ -1,12 +1,12 @@
 # Privacy Policy — Adnihilator
 
-Effective 2026-09-24.
+Effective 2026-10-25.
 
 Adnihilator hides ads in the Facebook feed. It has no server of its own, no analytics, no account and no advertising. This policy covers everything the extension reads, stores and sends.
 
 ## What it reads
 
-On `facebook.com` pages only, for each feed post, it reads:
+On `*.facebook.com` pages only, for each feed post, it reads (when the extension is installed or updated, it re-attaches itself to Facebook tabs that are already open, so they keep being checked):
 - the author name, the header label (for example "Ad" or "3 hours ago") and call-to-action button text;
 - external link domains, media counts and Facebook's ad-slot markers;
 - up to 300 characters of post text, and the ad's title and description.
@@ -20,7 +20,7 @@ Posts are sent only to the API providers whose keys **you** enter in settings:
 | TypeSafe (Jev) | `api.typesafe.ai` | each new post, if a Jev key is set | the features above |
 | Anthropic (Claude) | `api.anthropic.com` | every 5 minutes, only borderline posts, if a Claude key is set | the features above plus Jev's scores |
 
-**Redaction rule:** author, post text and ad creative are sent only for posts with ad evidence: an ad label, a call-to-action button, an external link, or Facebook's ad slot. For every other post (for example a friend's photo), those fields are blanked before anything leaves the browser.
+**Redaction rule:** author, post text and ad creative are sent only for posts with ad evidence: an ad label, a call-to-action button, or Facebook's ad slot. For every other post (for example a friend's photo, or a friend sharing a link), those fields are blanked before anything leaves the browser, and the header keeps only label words such as "Suggested for you".
 
 Each provider handles the data under its own terms: [TypeSafe](https://typesafe.ai) and [Anthropic](https://www.anthropic.com/legal/privacy). Without keys, nothing is sent anywhere.
 
